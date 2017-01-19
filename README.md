@@ -3,8 +3,8 @@
 Penjelasan singkat mengenai website kalian
 ##Used Tags & Syntaxes:
 ###Daftar tag HTML:
-`<!DOCTYPE html>
-<html>
+`<!DOCTYPE html>  
+<html>  
 <head></head>
 <body></body>
 </html>`
