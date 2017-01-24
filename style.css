@@ -1,0 +1,154 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 12%;
+  z-index: 1000;
+  margin: 5px 5px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.jumbotron {
+  background: url(img/ridho.png) no-repeat center center;
+  background-size: cover;
+  height: 700px;
+}
+
+.header {
+  background-color: steelblue;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+  text-align: right;
+
+}
+
+.nav li {
+  color: #fff;
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+
+.main {
+  position: relative;
+  top: 180px;
+  text-align: left center;
+}
+
+.main h1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+p{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  border: 1px solid #333;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.conten {
+  background-color: #677294;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.conten .col {
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.col {
+background: url() no-repeat center center;
+background-size: cover;
+height: 300px;
+}
+
+.conten img {
+  width: 200px;
+}
+
+.conten h2 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.conten p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
