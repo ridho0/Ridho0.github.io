@@ -20,7 +20,7 @@ html, body {
 }
 
 .jumbotron {
-  background: url(img/ridho.png) no-repeat center center;
+  background: url(img/ridho.jpg) no-repeat center center;
   background-size: cover;
   height: 700px;
 }
